@@ -45,7 +45,7 @@ namespace TestsNewTalents
 
             Assert.Equal(resultado, resultadoCalc);
         }
-
+        [Fact]
         public void TestarDivisaoPorZero()
         {
             Assert.Throws<DivideByZeroException>(() => calc.Dividir(3, 0));
